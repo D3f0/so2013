@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void imprimir_cadena(char *cadena){
+    printf(cadena);
+}
+
 int main(void) {
-    printf("What the hell are you doing here? WTF\n");
+    imprimir_cadena("What the hell are you doing here? WTF\n");
 }
