@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void imprimir_cadena(char *cadena){
+    printf(cadena);
+}
+
 int main(void) {
-    return 0;
+    imprimir_cadena("Hola mundo\n");
 }
